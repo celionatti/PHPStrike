@@ -1,0 +1,12 @@
+{
+    "version": "1.0.0",
+    "debug_mode": true,
+    "bolt_database": {
+        "drivers": "mysql",
+        "host": "127.0.0.1",
+        "username": "root",
+        "password": "",
+        "dbname": "bolt"
+    },
+    "app_name": "My Application"
+}
