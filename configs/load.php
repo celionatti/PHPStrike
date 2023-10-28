@@ -2,7 +2,16 @@
 
 declare(strict_types=1);
 
-$key = "123";
+/**
+ * Framework: PhpStrike
+ * Author: Celio Natti
+ * version: 1.0.0
+ * Year: 2023
+ * 
+ * Description: This file is for global constants
+ */
+
+$key = "3d51a9b66bdbe4a9fd9518d2f0e7bc0acc37239b072878ded176ec86f935f928";
 
 if (!defined('APP_KEY')) {
     define('APP_KEY', $key);
@@ -10,6 +19,14 @@ if (!defined('APP_KEY')) {
 
 if (!defined('URL_ROOT')) {
     define('URL_ROOT', "");
+}
+
+if (!defined('ENABLE_BLADE')) {
+    define('ENABLE_BLADE', false);
+}
+
+if (!defined('ENABLE_TWIG')) {
+    define('ENABLE_TWIG', false);
 }
 
 if (!defined('CONFIG_ROOT')) {

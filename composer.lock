@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "celionatti/bolt",
-            "version": "v1.0.3",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/celionatti/bolt.git",
-                "reference": "3b46f6de6d67bad076123c7381a0ea95ba9a7092"
+                "reference": "0f16822f2c6aa2e546a89feab113f56e8cf6689c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/celionatti/bolt/zipball/3b46f6de6d67bad076123c7381a0ea95ba9a7092",
-                "reference": "3b46f6de6d67bad076123c7381a0ea95ba9a7092",
+                "url": "https://api.github.com/repos/celionatti/bolt/zipball/0f16822f2c6aa2e546a89feab113f56e8cf6689c",
+                "reference": "0f16822f2c6aa2e546a89feab113f56e8cf6689c",
                 "shasum": ""
             },
             "require": {
@@ -45,9 +45,9 @@
             ],
             "support": {
                 "issues": "https://github.com/celionatti/bolt/issues",
-                "source": "https://github.com/celionatti/bolt/tree/v1.0.3"
+                "source": "https://github.com/celionatti/bolt/tree/v1.0.5"
             },
-            "time": "2023-10-27T13:11:10+00:00"
+            "time": "2023-10-28T23:46:09+00:00"
         },
         {
             "name": "doctrine/inflector",
