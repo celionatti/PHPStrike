@@ -27,6 +27,8 @@ use celionatti\Bolt\CLI\Strike\AuthenticationCommand;
 
 require __DIR__ . '/vendor/autoload.php';
 
+require __DIR__ . '/configs/load.php';
+
 $strike = new BoltCLI();
 
 $strike->registerCommand('greet', 'Greet the user', new GreetCommand());
