@@ -11,7 +11,7 @@ declare(strict_types=1);
  * Description: This file is for global constants
  */
 
-$key = "3d51a9b66bdbe4a9fd9518d2f0e7bc0acc37239b072878ded176ec86f935f928";
+$key = "9c3ca64331076f6da37180c560100033469fed6c017b719c45b0a8ac50f930a6";
 
 if (!defined('APP_KEY')) {
     define('APP_KEY', $key);

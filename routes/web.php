@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 use Bolt\controllers\AuthController;
 use PhpStrike\controllers\SiteController;
+use PhpStrike\controllers\AdminController;
 
 /** @var TYPE_NAME $bolt */
 
@@ -19,6 +20,8 @@ use PhpStrike\controllers\SiteController;
 
 $bolt->router->get("/", [SiteController::class, "welcome"]);
 $bolt->router->get("/testing", "SiteController@testing");
+
+$bolt->router->get("/admin", [AdminController::class, "dashboard"]);
 
 // $bolt->router->get("/", [SiteController::class, "welcome"]);
 
