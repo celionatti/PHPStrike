@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c6b09fee9cf02eec9bab7339a8cbaa51",
+    "content-hash": "f703e0ccda2e3a65aee58fd516b9dc09",
     "packages": [
         {
             "name": "celionatti/bolt",
-            "version": "v1.0.9",
+            "version": "v1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/celionatti/bolt.git",
-                "reference": "b85a162690aac2f92d43c34ac826c86917faa230"
+                "reference": "6b3c42477dfedb5be0a69b2e322a37c98d4e1f5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/celionatti/bolt/zipball/b85a162690aac2f92d43c34ac826c86917faa230",
-                "reference": "b85a162690aac2f92d43c34ac826c86917faa230",
+                "url": "https://api.github.com/repos/celionatti/bolt/zipball/6b3c42477dfedb5be0a69b2e322a37c98d4e1f5c",
+                "reference": "6b3c42477dfedb5be0a69b2e322a37c98d4e1f5c",
                 "shasum": ""
             },
             "require": {
@@ -45,9 +45,9 @@
             ],
             "support": {
                 "issues": "https://github.com/celionatti/bolt/issues",
-                "source": "https://github.com/celionatti/bolt/tree/v1.0.9"
+                "source": "https://github.com/celionatti/bolt/tree/v1.1.4"
             },
-            "time": "2023-11-04T15:10:02+00:00"
+            "time": "2023-11-12T21:18:28+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -2270,16 +2270,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v6.3.7",
+            "version": "v6.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "9758b6c69d179936435d0ffb577c3708d57e38a8"
+                "reference": "3493af8a8dad7fa91c77fa473ba23ecd95334a92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/9758b6c69d179936435d0ffb577c3708d57e38a8",
-                "reference": "9758b6c69d179936435d0ffb577c3708d57e38a8",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/3493af8a8dad7fa91c77fa473ba23ecd95334a92",
+                "reference": "3493af8a8dad7fa91c77fa473ba23ecd95334a92",
                 "shasum": ""
             },
             "require": {
@@ -2322,7 +2322,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v6.3.7"
+                "source": "https://github.com/symfony/yaml/tree/v6.3.8"
             },
             "funding": [
                 {
@@ -2338,7 +2338,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-10-28T23:31:00+00:00"
+            "time": "2023-11-06T10:58:05+00:00"
         },
         {
             "name": "twig/twig",
@@ -2578,5 +2578,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }

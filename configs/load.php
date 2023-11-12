@@ -11,14 +11,23 @@ declare(strict_types=1);
  * Description: This file is for global constants
  */
 
-$key = "9c3ca64331076f6da37180c560100033469fed6c017b719c45b0a8ac50f930a6";
+
+if (!file_exists(__DIR__ . '/constants.php')) {
+    die("Constants File Not Found!");
+}
+
+require __DIR__ . '/constants.php';
+
+
+$key = "ce6e514e64006bd60dceef0e56c89e24a4459393f9679e63a8d9e0f5ea551de8";
+
 
 if (!defined('APP_KEY')) {
     define('APP_KEY', $key);
 }
 
 if (!defined('URL_ROOT')) {
-    define('URL_ROOT', "");
+    define('URL_ROOT', $_ENV["URL_ROOT"]);
 }
 
 if (!defined('ENABLE_BLADE')) {
@@ -42,33 +51,21 @@ if (!defined('BOLT_DATABASE')) {
 }
 
 if (!defined('DB_NAME')) {
-    define('DB_NAME', "bolt");
+    define('DB_NAME', $_ENV["DB_NAME"]);
 }
 
 if (!defined('DB_USERNAME')) {
-    define('DB_USERNAME', "root");
+    define('DB_USERNAME', $_ENV["DB_USERNAME"]);
 }
 
 if (!defined('DB_PASSWORD')) {
-    define('DB_PASSWORD', "");
+    define('DB_PASSWORD', $_ENV["DB_PASSWORD"]);
 }
 
 if (!defined('DB_DRIVERS')) {
-    define('DB_DRIVERS', "mysql");
+    define('DB_DRIVERS', $_ENV["DB_DRIVERS"]);
 }
 
 if (!defined('DB_HOST')) {
-    define('DB_HOST', "127.0.0.1");
-}
-
-if (!defined('MAILER_EMAIL')) {
-    define('MAILER_EMAIL', "");
-}
-
-if (!defined('MAILER_PASSWORD')) {
-    define('MAILER_PASSWORD', "");
-}
-
-if (!defined('MAILER_HOST')) {
-    define('MAILER_HOST', "smtp.gmail.com");
+    define('DB_HOST', $_ENV["DB_HOST"]);
 }

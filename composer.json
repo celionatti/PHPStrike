@@ -16,6 +16,6 @@
     "minimum-stability": "stable",
     "require": {
         "vlucas/phpdotenv": "^5.5",
-        "celionatti/bolt": "^1.0"
+        "celionatti/bolt": "^1.1"
     }
 }
